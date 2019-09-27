@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "target": "es6",
+    "sourceMap": true,
+    "lib": [
+      "es2017"
+    ],
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./**/*.spec.ts",
+    "./dev-data"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/member-ordering": "error",
+    "@typescript-eslint/no-this-alias": "error",
+    "no-bitwise": "error",
+    "no-console": "warn",
+    "no-useless-constructor": "error",
+    "no-debugger": "error",
+    "no-empty": "error",
+    "no-implicit-coercion": "error",
+    "no-unused-vars": "error",
+    "no-use-before-define": "error",
+    "no-shadow": "error",
+    "no-template-curly-in-string": "error",
+    "no-unreachable": "error",
+    "no-caller": "error",
+    "no-eval": "error",
+    "no-invalid-this": "error",
+    "no-new-wrappers": "error",
+    "no-unused-expressions": "error",
+    "no-useless-return": "error",
+    "no-const-assign": "error",
+    "prefer-spread": "error"
+  },
+  "settings": {
+    "node": {
+      "version": "detect"
+    }
+  }
+}
